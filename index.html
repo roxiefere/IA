@@ -9,7 +9,8 @@
 <body>
 <div id="everything">
     <h1>Outfit Advice</h1>
-    <h2>Select Shirt</h2>
+    <h2>Input one or more clothing items you have trouble finding an outfit for to receive fashion feedback</h2>
+    <h3>Select Shirt</h3>
     <div id="shirts">
         <select id="ShirtType">
             <option value="0">--Select Shirt Type--</option>
@@ -52,15 +53,15 @@
             <option value="40">Plaid</option>
             <option value="8">Polka Dot</option>
             <option value="9">Stripes</option>
-            <option value="10">Multi</option>
-            <option value="11">Checkered</option>
+            <option value="11">Multi</option>
+            <option value="12">Checkered</option>
         </select>
     </div>
-    <h2>Select Pant</h2>
+    <h3>Select Pant</h3>
     <div id="pants">
         <select id="PantType">
             <option value="0">--Select Pant Type--</option>
-            <option value="1">Skinny Jeans</option>
+            <option value="1">Jeans</option>
             <option value="2000">Flare</option>
             <option value="4000">Cargo Pants</option>
             <option value="4">Shorts</option>
@@ -97,11 +98,11 @@
             <option value="40">Plaid</option>
             <option value="8">Polka Dot</option>
             <option value="9">Stripes</option>
-            <option value="10">Multi</option>
-            <option value="11">Checkered</option>
+            <option value="11">Multi</option>
+            <option value="12">Checkered</option>
         </select>
     </div>
-    <h2>Select Other</h2>
+    <h3>Select Other</h3>
     <div id="others">
         <select id="OtherType">
             <option value="0">--Other--</option>
@@ -139,12 +140,13 @@
             <option value="40">Plaid</option>
             <option value="8">Polka Dot</option>
             <option value="9">Stripes</option>
-            <option value="10">Multi</option>
-            <option value="11">Checkered</option>
+            <option value="11">Multi</option>
+            <option value="12">Checkered</option>
         </select>
     </div>
     <br>
     <button id="submit" onclick="makeOutfits()" value="Submit">Submit</button>
+    <button id="reset" onclick="reset()" value="reset">Reset</button>
     <div id="result"></div>
 </div>
 </body>
