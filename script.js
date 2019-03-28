@@ -211,6 +211,10 @@ function makeOutfits() {
         document.getElementById("result").innerHTML += "<h3>Pant Type:</h3>";
         document.getElementById("result").innerHTML += "You should wear a top you can easily move in." + "<br>" + "Since leggings are often worn as athletic wear, it isn't fitting to wear a top such as a blouse with these pants." + "<br>";
     }
+    if (pantT == 7000) {
+        document.getElementById("result").innerHTML += "<h3>Pant Type:</h3>";
+        document.getElementById("result").innerHTML += "You should wear any flowy top with these pants." + "<br>" + "Since they flare at the bottom, it's fitting to keep this fashion design constant within the outfit." + "<br>";
+    }
     //color outputs
     if (pantC == 100) {
         document.getElementById("result").innerHTML += "<h3>Color:</h3>";
